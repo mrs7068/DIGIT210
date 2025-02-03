@@ -1,0 +1,3 @@
+Searching for any money values (will recognize a decimal as well): \$\d+(?:\.\d{2})?
+
+Searching for meals because I'm hungry: \b(?:meals?|breakfast|lunch|dinner|cuisine)\b
