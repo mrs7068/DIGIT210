@@ -1,4 +1,4 @@
-#GitHub Assignments
+# GitHub Assignments
 
 *This directory is where I will store the various GitHub assignments for DIGIT 210.*
 
