@@ -18,21 +18,21 @@
 	Replace: </p>\n<p>
 	```
 
-1. Use expressions to wrap the chapter titles in a `<title>` element.
+1. Use expressions to wrap the chapter titles in a `<title>` element. Make sure "Dot matches all" is checked.
 
 	```
 	Find: (<p>)([IVX]+\.\s+.+?)(</p>)
 	Replace: <title>\2</title>
 	```
 	
-1. Use a similar expression to wrap the chapter titles in the table of contents in `<title>` elements as well (after manually removing the `<p>` and `</p>` that were enclosing all of the titles in the TOC).
+1. Use a similar expression to wrap the chapter titles in the table of contents in `<title>` elements as well (after manually removing the `<p>` and `</p>` that were enclosing all of the titles in the TOC). Make sure "Dot matches all" is still checked.
 
 	```
 	Find: (\s+)([IVX]+\.)(\s\s)(.+)$
 	Replace: \n<title>\2 \4</title>
 	```
 	
-1. Now, enclose the chapters in `<chapter>` tags. Remove the extra closing `</chapter>` tag from the beginning of the first chapter and put it at the very end of the document to close the last chapter.
+1. Uncheck "Dot matches all". Now, enclose the chapters in `<chapter>` tags. Remove the extra closing `</chapter>` tag from the beginning of the first chapter and put it at the very end of the document to close the last chapter.
 
 	```
 	Find: <title>.+</title>\n<p>
