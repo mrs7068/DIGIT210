@@ -16,6 +16,7 @@
         a special XSLT function called xsl:analyze-string.
     -->
     <xsl:template match="text()">
+        <!-- mrs7068: I'm not sure if this Regex is doing exactly what I want. I tested it in Find and Replace as normal Regex and it seemed to work -->
         <xsl:analyze-string select="." regex="([&lt;sp&gt;\n])(.+?)(:)" flags="s">
             <!-- @flags="s" sets the "dot matches all" functionality in xsl:analyze-string. Remove it 
             if you need to prevent the dot from matching newline characters. -->
