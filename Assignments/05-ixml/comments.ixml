@@ -1,0 +1,17 @@
+# Comments on ixml Homework 1
+
+I'm revolting and leaving these comments in markdown but saving them as .ixml so Canvas will let me submit them.
+
+First, I will be leaving a comment here because I couldn't figure out how to leave comments in the .ixml file (if that's even possible):
+
+* I was going to try to validate the year here (not sure if that's what this step in the pipeline is necessarily for), but I couldn't because of the first line saying "year". So I'm assuming there will be easier/better ways later on to do that. I was going to do so by identifying a "digit":
+
+	```shell
+	-digit: ["0"-"9"].
+	```
+	
+* I think it might be worth stating the obvious to the students before they go into this: we call it an ixml "grammar" because it's like grammar, and it makes logical sense if you translate it out loud in English. I believe David was doing this for us as he explained it to us, and that's where I picked up on it. I plugged in what the readings told me to do, and I got it working, but it didn't make sense until I read it out loud. "A films element is one or more film separated by a newline. A film element is a title, followed by a tab, followed by a year, etc. ... A title element is a possible quote, followed by anything that is not a quote, tab, or newline, followed by another possible quote. A year element is anything that is not a tab or a newline. ... A tab (not an element) which we don't want to keep (-) is the character #9 which is computer language for a tab."
+
+	* I felt the need to type all that out, mostly to keep track of my thoughts, but also to show that I think I understand, because it feels fairly simple once you get the hang of it. I tried a few different things but couldn't really see any other way of writing any of these rules for something so straight-forward (and for a text I was already familiar with).
+
+* The note about what the "~" character does in ixml was hidden in the readings you gave us in this DIGIT 496 assignment, so I would maybe recommend to David to add a note about that in the assignment as well, as it's an important thing to pick up on and understand.
