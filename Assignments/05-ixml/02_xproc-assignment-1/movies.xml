@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><films>
+<film><title>Goodbye to All That</title><year>1930</year><countries><country>UK</country></countries><runtime>9</runtime></film>
+<film><title>Murder!</title><year>1930</year><countries><country>UK</country></countries><runtime>92</runtime></film>
+<film><title>20,000 Years in Sing Sing</title><year>1932</year><countries><country>USA</country></countries><runtime>78</runtime></film>
+<film><title>A Co-respondent's Course</title><year>1931</year><countries><country>Australia</country></countries><runtime>N/A</runtime></film>
+<film><title>Goodbye Pork Pie</title><year>1980</year><countries><country>New Zealand</country></countries><runtime>90</runtime></film>
+<film><title>The Thief of Bagdad</title><year>1940</year><countries><country>UK</country><country>USA</country></countries><runtime>106</runtime></film>
+<film><title>Everybody Sing</title><year>1937</year><countries><country>USA</country></countries><runtime>N/A</runtime></film>
+<film><title>Adventures of Don Quixote</title><year>1933</year><countries><country>UK</country><country>France</country></countries><runtime>73</runtime></film>
+<film><title>Wynken, Blynken &amp; Nod</title><year>1938</year><countries><country>USA</country></countries><runtime>8</runtime></film>
+<film><title>The Candid Camera Story (Very Candid) of the Metro-Goldwyn-Mayer Pictures 1937 Convention</title><year>1937</year><countries><country>USA</country></countries><runtime>17</runtime></film></films>

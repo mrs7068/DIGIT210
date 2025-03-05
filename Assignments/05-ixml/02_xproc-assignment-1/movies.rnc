@@ -1,0 +1,8 @@
+start = films
+    films = element films {film+}
+    film = element film {title, year, countries, runtime}
+        title = element title {text}
+        year = element year {xsd:gYear | "N/A"}
+        countries = element countries {country+}
+            country = element country {text}
+        runtime = element runtime {xsd:integer | "N/A"}
