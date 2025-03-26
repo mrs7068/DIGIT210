@@ -10,6 +10,7 @@ Thumbs.db
 .idea/workspace.xml
 .env/
 .idea/
+.idea
 .venv
 venv/
 __pycache__/
