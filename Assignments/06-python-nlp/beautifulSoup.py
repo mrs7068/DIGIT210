@@ -26,4 +26,4 @@ for artist in artists:
 
         print(f"  🎵 Album: {album_title}")
         print(f"     📅 {release_info}")
-        print(f"     🔗 Link: {archive_url}{album_url}")
+        print(f"     🔗 Link: https://afish2003.github.io/GretaVanZeppelin/{album_url}")
